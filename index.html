@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Anshit Kumar Srivastava">
+  <meta property="og:image" content="File\551828-2048x1536-abstract.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+
+  <title>Anshit Kumar Srivastava</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- CDN's -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+  <!--Div for background-->
+  <div class="bg-div"></div>
+
+  <!-----------------------
+            HEADER
+    ------------------------->
+
+  <header class="header" id="header">
+    <div class="logo img"><img class="" src="File\IMG_20181225_180620 copy - Copy.jpg" alt="logo"></div>
+    <p class="logo initials" tabindex="1" href=""></p>
+    <div class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link active" name="home" onclick="scrollToSection(this),toggleNav()" tabindex="4">Home</a>
+        </li>
+       
+        <li><a class="navbar-link" name="about" onclick="scrollToSection(this),toggleNav()" tabindex="5">About</a></li>
+        <li><a class="navbar-link" name="skills" onclick="scrollToSection(this),toggleNav()" tabindex="6">Skills</a>
+        </li>
+        <a class="navbar-link" name="Research" onclick="scrollToSection(this),toggleNav()" tabindex="8">Research</a>
+        </li>
+        <li><a class="navbar-link" name="Patents" onclick="scrollToSection(this),toggleNav()" tabindex="9">Patents</a>
+      </li>
+      <li><a class="navbar-link active" name="Internship" onclick="scrollToSection(this),toggleNav()" tabindex="4">Internship</a>
+      </li>
+      <li><a class="navbar-link" name="projects" onclick="scrollToSection(this),toggleNav()" tabindex="7">Projects</a>
+      </li>
+      <li><a class="navbar-link" name="certificates" onclick="scrollToSection(this),toggleNav()"
+        tabindex="10">Certifications & Awards </a></li>
+        <li><a class="navbar-link" name="education" onclick="scrollToSection(this),toggleNav()"
+            tabindex="8">Education</a></li>
+        
+      </ul><a class="contactBtn button" name="getInTouch" tabindex="10" href="https://www.linkedin.com/in/anshit-kumar-a1b6a1252/"
+        target="_blank">Contact</a><ion-icon tabindex="9" name="close-outline" class="mobile-nav-icon"
+        onclick="toggleNav()"></ion-icon>
+    </div><ion-icon tabindex="3" name="menu-outline" class="mobile-nav-icon" onclick="toggleNav()"></ion-icon>
+ 
+  </header>
+
+  <!-----------------------
+          HOME SECTION
+    ------------------------->
+
+  <section class="section home-section" id="home" tabindex="42">
+    <div>
+      <h1>Hey,I'm </h1>
+      <h1><span class="name"> Anshit Kumar Srivastava </span></h1>
+      <p class="aboutShort">Electronic Engineer</p>
+      <button class="about-me-btn button" name="about" onclick="scrollToSection(this)" tabindex="2">About Me<ion-icon
+          name="chevron-forward-outline"></ion-icon></button>
+    </div>
+    <div class="">
+    <div class="imgDiv">
+      <img src="File\IMG_20181225_180620 copy - Copy.jpg" class="profile-image">
+    </div>
+    </div>
+  </section>
+
+  <!-----------------------
+          ABOUT SECTION
+    ------------------------->
+
+  <section id="about" class="section about-section" tabindex="11">
+    <div class="about-ill"><img src="File\about.png" alt="Memoji"></div>
+    <div class="aboutMe" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+      <h2 class="name">About me</h2>
+      <br>
+      <p class="aboutLong">Hello! My name is Anshit Kumar Srivastava, and I'm a B.Tech in ECE student at SRM IST Delhi-NCR Campus. I adore creating things that interact with hardware and software. I've always been fascinated by electronics, and my interest in embedded systems began when I attempted to build a line-follower robot in high school.
+        I enjoy meeting new people and building a network of like-minded individuals.
+        I am a quick learner who can quickly adapt to changes. I'm glad you came by! Check out my portfolio and contact me to see what I can achieve for you.
+</p>
+      <br><a class="button" href="File\document\Anshit kumar Srivastava.pdf" target="_blank" tabindex="12">Resume<ion-icon
+          name="document-outline"></ion-icon></a>
+    </div>
+    <ul class="social-menu" data-aos="fade-left" data-aos-duration="700" data-aos-delay="500" data-aos-once="true">
+      <li><a href="https://www.linkedin.com/in/anshit-kumar-a1b6a1252/" target="_blank" aria-label="linkedin" class="linkedin" tabindex="13"><i
+            class="fab fa-linkedin-in"></i></a></li>
+    </ul>
+  </section>
+
+  <!-----------------------
+        SKILLS SECTION
+    ------------------------->
+
+  <section class="section skill-section" id="skills" tabindex="17">
+    <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+      data-aos-duration="700" data-aos-once="true">
+      <h1 class="title">My Skills</h1>
+      <div class="skill-container">
+        <div class="major"><img src="File\html.svg" alt="Skill image 2">
+          <p>HTML</p>
+        </div>
+        <div class="major"><img src="File\css.svg" alt="Skill image 3">
+          <p>CSS</p>
+        </div>
+        <div class="major"><img src="File\js.svg" alt="Skill image 3">
+          <p>Javascript</p>
+        </div>
+        <div class="major"><img src="File\bootstrap.svg" alt="Skill image 3">
+          <p>Bootstrap</p>
+        </div>
+        <div class="major"><img src="File\wordpress.png" alt="Skill image 3">
+          <p>Wordpress</p>
+        </div>
+        <div class="major"><img src="File\photo.png" alt="Skill image 3">
+          <p>Scilab</p>
+        </div>
+        <div class="major"><img src="File\Autocad-Logo.png" alt="Skill image 3">
+          <p>Autocad</p>
+        </div>
+        <div class="major"><img src="File\github.png" alt="Skill image 3">
+          <p>Git/Github</p>
+        </div>
+        <div class="major"><img src="File\c.png" alt="Skill image 3">
+          <p>C/C++</p>
+        </div>
+        <div class="major"><img src="File\orcad.png" alt="Skill image 3">
+          <p>orcad</p>
+        </div>
+        <div class="major"><img src="File\arduino.png" alt="Skill image 3">
+          <p>Arduino</p>
+        </div>
+        <div class="major"><img src="File\easyeda.png" alt="Skill image 3">
+          <p>Easyeda</p>
+        </div>
+        <div class="major"><img src="File\photoshop.jpeg" alt="Skill image 3">
+          <p>Photoshop 7.0</p>
+        </div>
+        <div class="major"><img src="File\canva.jpeg" alt="Skill image 3">
+          <p>Canva</p>
+        </div>
+        <div class="major"><img src="File\modelsim.png" alt="Skill image 3">
+          <p>Modelsim</p>
+        </div>
+        <div class="major"><img src="File\keil.png" alt="Skill image 3">
+          <p>Keil</p>
+        </div>
+        <div class="major"><img src="File\fujifilm.png" alt="Skill image 3">
+          <p>Fujifilm</p>
+        </div>
+        <div class="major"><img src="File\cicso.png" alt="Skill image 3">
+          <p>  CISCO Packet Tracer </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+<!-------------------------
+  Research Section
+-------------------------->
+<section class="section main project-section" id="Research" tabindex="24">
+  <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+    data-aos-duration="700" data-aos-once="true">
+    <div class="section-header">
+    </h1><img class="female" src="File\female.png" alt="Project header image">
+      <h1 class="title">My Publication </h1>
+    </h1><img class="female" src="File\female.png" alt="Project header image">
+    </div>
+    <div class="project card-container">    
+      <div class="project card 1" tabindex="">
+        <div class="imgDiv">
+          <img src="File\download.jpg" alt="Project image">
+        </div>
+        <br>
+        <h6>Analysis of Lidar-Based Autonomous Vehicle Detection Technologies for Recognizing Objects  </h6>
+        <p class="techstack"> 6" IEEE International Conference on Information Systems and Computer Networks (ISCON 2023)  </p>
+        <div class="options">
+          <a class="viewElem" href=https://ieeexplore.ieee.org/document/10112089 target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+         </div>
+      </div> 
+
+      <div class="project card 1" tabindex="">
+        <div class="imgDiv">
+          <img src="File\images.jpg" alt="Project image">
+        </div>
+        <br>
+        <h6>Analysis for Autonomous Vehicle Detection Technologies for Recognizing Objects based on Lidar  </h6>
+        <p class="techstack"> 7th  International Conference on Advances in Computing and Data Sciences </p><p>(ICACDS 2023) </p>
+        <div class="options">
+          <a class="viewElem" href="File\certificate\ICACDS.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+         </div>
+      </div> 
+    </section>
+<!-------------------------
+  Patents Section
+-------------------------->
+<section class="section main project-section" id="Patents" tabindex="24">
+  <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+    data-aos-duration="700" data-aos-once="true">
+    <div class="section-header">
+    </h1><img class="female" src="File\istockphoto-1311448903-612x612.jpg" alt="Project header image">
+      <h1 class="title">My Patents</h1>
+    </h1><img class="female" src="File\istockphoto-1311448903-612x612.jpg" alt="Project header image">
+    </div>
+    <div class="project card-container">    
+      <div class="project card 1" tabindex="">
+        <div class="imgDiv">
+          <img src="File\blindman.jpg" alt="Project image">
+        </div>
+        <br>
+        <h6>SMART HYDRA SPECTACLES FOR VISUALLY IMPAIRED PEOPLE </h6>
+        <p class="techstack"> Publication Date: 25/11/2022  </p>
+        <div class="options">
+          <a class="viewElem" href="File\document\patent 1.jpg" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+         </div>
+      </div>         
+      <div class="project card 1" tabindex="">
+        <div class="imgDiv">
+          <img src="File\Drones.jpg" alt="Project image">
+        </div>
+        <br>
+        <h6>A DRONE SYSTEM USING ADVANCED EXPLOSIVES DETECTION FUNCTION  </h6>
+        <p class="techstack"> Publication Date: 09/06/2023  </p>
+        <div class="options">
+          <a class="viewElem" href="File\document\Patent 2.jpg" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+         </div>
+      </div>     
+    </section>
+    <!-------------------------
+ Internship Section
+-------------------------->
+<section class="section main project-section" id="Internship" tabindex="24">
+  <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+    data-aos-duration="700" data-aos-once="true">
+    <div class="section-header">
+    </h1><img class="female" src="File\internship.png" alt="Project header image">
+      <h1 class="title">Internship</h1>
+    </h1><img class="male" src="File\internship.png" alt="Project header image">
+    </div>
+    <div class="project card-container">    
+      <div class="project card 1" tabindex="">
+        <div class="imgDiv">
+          <img src="File\NER_LOGO.png" alt="Project image">
+        </div>
+        <br>
+        <h6>Indian Railway</h6>
+        <h6>(North Eastern Railway)</h6>
+        <p class="techstack">  Date: 12/06/2023 to 13/07/2023  </p>
+        <div class="options">
+          <a class="viewElem" href="File\certificate\NER.jpg" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+         </div>
+      </div>
+  
+      
+  <!-------------------------
+        PROJECT SECTION
+    ------------------------->
+    <section class="section main project-section" id="projects" tabindex="18">
+      <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+        data-aos-duration="700" data-aos-once="true">
+        <div class="section-header">
+          <h1 class="title">My recent work<p class="sectionDesc">
+              Here are the few projects I've worked on😊</p>
+          </h1><img class="ProjectHeaderImage" src="File\project-head.png" alt="Project header image">
+        </div>
+        <div class="project card-container">
+  
+  
+          <div class="project card 1" tabindex="">
+            <div class="imgDiv">
+              <img src="File\pcb.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>Home Automation by PCB Designing </h6>
+            <div class="options">
+              <a class="viewElem" href="File\document\Smart home automation by PCB Designing.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 1" tabindex="">
+            <div class="imgDiv">
+              <img src="File\WhatsApp Image 2023-04-24 at 22.22.04.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>  Robotic Car Project</h6>
+            <div class="options">
+              <a class="viewElem" href="File\document\Robotic Project.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+
+          <div class="project card 1" tabindex="">
+            <div class="imgDiv">
+              <img src="File\mini project copy.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6> 5 MINI PROJECTS</h6>
+            <div class="options">
+              <a class="viewElem" href="File\document\Mini project.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+  
+          <div class="project card 1" tabindex="">
+            <div class="imgDiv">
+              <img src="File\CISCO.png" alt="Project image">
+            </div>
+            <br>
+            <h6> Smart Home In IoT </h6>
+            <p> using CISCO Packet Tracer</p>
+            <div class="options">
+              <a class="viewElem" href="File\document\Smart home.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+        
+    </section>     
+  <!-------------------------
+        Certificates SECTION
+    ------------------------->         
+    <section class="section main project-section" id="certificates" tabindex="18">
+      <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+        data-aos-duration="700" data-aos-once="true">
+        <div class="section-header">
+        </h1><img class="ProjectHeaderImage" src="File\3f404573d87803b0dbb7e0f9ec3ae4d7_w200.gif" alt="Project header image">
+          <h1 class="title">My Certificates & Awards 
+          </h1><img class="ProjectHeaderImage" src="File\3f404573d87803b0dbb7e0f9ec3ae4d7_w200.gif" alt="Project header image">
+        </div>
+        <div class="project card-container">
+  
+          <div class="project card 1" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\ArduBotic.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>ArduBotics Robotics by Innovians Technologies</h6>
+            <p>( 2nd Position )</p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\ArduBotic (1).pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>  
+          <div class="project card 2" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\idea hackathon 1.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>1st Idea Hackathon 2022</h6>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\idea hackathon 1.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>  
+          <div class="project card 3" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\icacds.jpg"alt="Project image">
+            </div>
+            <br>
+            <h6>Springer Conference Paper</h6>
+            <p> (ICACDS 2023)</p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\ICACDS.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 4" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\icson.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>IEEE Conference Paper</h6>
+            <p>(ISCON 2023)</p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\Paper 1.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 5" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\Screenshot (165).png" alt="Project image">
+            </div>
+            <br>
+            <br><h6>ICIPRMR2023</h6>
+            <br><p>by Prof Ram Meghe College of Engineering & Management, Badnera </p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\Patent certification.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 5" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\Robotics.jpg" alt="Project image">
+            </div>
+            <br>
+            <br><h6>Robotics</h6>
+            <br><p>by IIT BHU</p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\Robotics.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 6" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\isro.jpg" alt="Project image">
+            </div>
+            <br>
+            <h6>Fundamentals of Remote Sensing & GIS Technology </h6>
+            <p>by ISRO</p>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\ISRO.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+          <div class="project card 7" tabindex="">
+            <div class="imgDiv">
+              <img src="File\certificate\nyx.jpg"  alt="Project image">
+            </div>
+            <br>
+            <h6>SRM-NCR NYX with SWAGATHAM'22</h6>
+            <div class="options">
+              <a class="viewElem" href="File\certificate\nyx.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+            </div>
+          </div>
+            <div class="project card 8" tabindex="">
+              <div class="imgDiv">
+                <img src="File\certificate\Life@srm photography.jpg" alt="Project image">
+              </div>
+              <br>
+              <h6>Life@srm Photography</h6>
+              <p>by CSI SRM </p>
+              <div class="options">
+                <a class="viewElem" href="File\certificate\Life@srm photography.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+              </div>
+            </div>
+            <div class="project card 9" tabindex="">
+              <div class="imgDiv">
+                <img src="File\certificate\Swachata pakhwada .jpg" alt="Project image">
+              </div>
+              <br>
+              <h6>Swachhata Pakhwada</h6>
+              <div class="options">
+                <a class="viewElem" href="File\certificate\Swachata pakhwada Certificate.pdf" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+              </div></div>
+              <div class="project card 10" tabindex="">
+                <div class="imgDiv">
+                  <img src="File\certificate\Netcamp .jpg" alt="Project image">
+                </div>
+                <br>
+            <h6>3 Days workshop on Network Management with Ethical Hacking and Web Development with Android</h6>
+            <h6>by Netcamp</h6>
+                <div class="options">
+                  <a class="viewElem" href="File\certificate\Netcamp Certificate.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                </div>
+              </div>
+              <div class="project card 11" tabindex="">
+                <div class="imgDiv">
+                  <img src="File\certificate\fujifilm.jpg" alt="Project image">
+                </div>
+                <br>
+                <h6>FUJIFILM Photo Workshop </h6>
+                <div class="options">
+                  <a class="viewElem" href="File\certificate\fujifilm.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                </div>
+              </div>
+                  <div class="project card 12" tabindex="">
+                    <div class="imgDiv">
+                      <img src="File\certificate\iot.jpg" alt="Project image">
+                    </div>
+                    <br>
+            <h6>Introduction to the Internet of Things and Embedded Systems</h6>
+            <p>by University of California, Irvine</p>
+                    <div class="options">
+                      <a class="viewElem" href="File\certificate\iot.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="project card 13" tabindex="">
+                    <div class="imgDiv">
+                      <img src="File\certificate\python.jpg" alt="Project image">
+                    </div>
+                    <br>
+                   <h6>Programming for Everybody (Getting Started with Python)</h6>
+                   <p class="techstack">by UNIVERSITY OF MICHIGAN</p>
+                    <div class="options">
+                      <a class="viewElem" href="File\certificate\Programming for Everybody.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    </div>
+                  </div>
+                    <div class="project card 14" tabindex="">
+                      <div class="imgDiv">
+                        <img src="File\certificate\java.jpg" alt="Project image">
+                      </div>
+                      <br>
+                      <h6>JavaScript Basics</h6>
+                      <p class="techstack">by UCDAVIS</p>
+                      <div class="options">
+                        <a class="viewElem" href="File\certificate\Java Script Basic.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                      </div></div>
+                      <div class="project card 15" tabindex="">
+                        <div class="imgDiv">
+                          <img src="File\certificate\matlab.jpg" alt="Project image">
+                        </div>
+                        <h6>Introduction to Programming with MATLAB</h6>
+                       <p class="techstack">by VANDERBILT UNIVERSITY</p>
+                        <div class="options">
+                          <a class="viewElem" href="File\certificate\Matlab Certificate.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                        </div></div>
+                        <div class="project card 16" tabindex="">
+                          <div class="imgDiv">
+                            <img src="File\certificate\fdp.jpg" alt="Project image">
+                          </div>
+                          <br>
+                          <h6>loT and Wearable Devices for Smart City Infrastructure</h6>
+                          <p>6-Day Faculty Development Programme</p>
+                          <div class="options">
+                            <a class="viewElem" href="File\certificate\fdp.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                          </div>
+                        </div>
+                        <div class="project card 17" tabindex="">
+                          <div class="imgDiv">
+                            <img src="File\certificate\devtown.jpg" alt="Project image">
+                          </div>
+                          <br>
+                          <h6>Devtown </h6>
+                          <div class="options">
+                            <a class="viewElem" href="File\certificate\devtown.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                          </div>
+                        </div>
+                        <div class="project card 18" tabindex="">
+                          <div class="imgDiv">
+                            <img src="File\certificate\Screenshot (185).png" alt="Project image">
+                          </div>
+                          <br>
+                          <h6>ChatGPT Complete Guide: Learn Midjourney, ChatGPT 4 & More </h6>
+                          <p class="techstack">by Udemy </p>
+                          <div class="options">
+                            <a class="viewElem" href="File\certificate\Chatgpt.pdf"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                          </div>
+                        </div>
+                        <div class="project card 19" tabindex="">
+                          <div class="imgDiv">
+                            <img src="File\certificate\CYBER SECURITY AWARENESS MONTH.jpg" alt="Project image">
+                          </div>
+                          <br>
+                          <h6>CYBER SECURITY AWARENESS MONTH
+                            </h6>
+                          <p class="techstack">by my gov my sarkar </p>
+                          <div class="options">
+                            <a class="viewElem" href="File\certificate\CYBER SECURITY AWARENESS MONTH.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                          </div>
+                        </div>
+                        <div class="project card 20" tabindex="">
+                          <div class="imgDiv">
+                            <img src="File\certificate\DATA PRIVACY PLEDGE.jpg" alt="Project image">
+                          </div>
+                          <br>
+                          <h6> DATA PRIVACY PLEDGE </h6>
+                          <p class="techstack">by my gov my sarkar </p>
+                          <div class="options">
+                            <a class="viewElem" href="File\certificate\DATA PRIVACY PLEDGE.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                          </div></div>
+                          <div class="project card 21" tabindex="">
+                            <div class="imgDiv">
+                              <img src="File\certificate\SHIKSHA SANKALP.jpg" alt="Project image">
+                            </div>
+                            <br>
+                            <h6>SHIKSHA SANKALP </h6>
+                            <p class="techstack">by my gov my sarkar </p>
+                            <div class="options">
+                              <a class="viewElem" href="File\certificate\SHIKSHA SANKALP.jpg"target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                            </div>
+      </div>
+    </section>
+
+  <!-----------------------
+        EDUCATION SECTIONS
+    ------------------------->
+
+  <section class="section education-section" id="education" tabindex="23">
+    <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+      data-aos-duration="700" data-aos-once="true">
+      <h1 class="title">Education</h1>
+      <div class="card-container">
+        
+        <div class="card">
+          <div class="imgDiv">
+            <img src="File\graduation.png" alt="Institute image">
+          </div><br>
+          <h6 class="courseName">B.Tech in Electronics and Communication Engineering</h6>
+          <p class="instituteName">SRM Institute of Science and Technology</p>
+          <p class="instituteDesc">CGPA: 8.97/10</p><br>
+          <p class="status Pursuing">Ongoing 2020-2024</p>
+        </div>
+
+        <div class="card">
+          <div class="imgDiv">
+            <img src="File\high-school.png" alt="Institute image">
+          </div><br>
+          <h6 class="courseName"> Higher Secondary</h6>
+          <p class="instituteName">Renaissance Academy</p><br>
+          <p class="status Completed">Completed 2020</p>
+        </div>
+
+        <div class="card">
+          <div class="imgDiv">
+            <img src="File\school.png" alt="Institute image">
+          </div><br>
+          <h6 class="courseName"> Matriculation</h6>
+          <p class="instituteName">Little Flower School</p><br>
+          <p class="status Completed">Completed 2018</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------
+        EXPERIENCE SECTION
+    ------------------------->
+  <!-- <section class="section experience-section" id="experience" tabindex="24">
+    <div style="width:100%;align-items:center;display:flex;flex-direction:column" data-aos="zoom-in-up"
+      data-aos-duration="700" data-aos-once="true">
+      <h1 class="title">Experience<p>These are the compaines where I've previously worked.</p>
+      </h1>
+      <div class="expContainer">
+        <ul class="listOfExp">
+          <li class="companyName active" tabindex="${tabindex}">Company name</li>
+        </ul>
+        <div class="expDesc">
+          <h4 class="expTitle">Job title</h4>
+          <p class="period">From (Month) - to (Month) Year</p><br>
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio autem nihil porro consectetur
+            tempore similique laudantium aliquid labore quibusdam quam vel aperiam eligendi, esse illum est pariatur.
+            Dignissimos saepe inventore, nisi consequatur doloribus id obcaecati autem a quo? Corporis voluptatum
+            doloremque quisquam dicta eveniet rerum maiores cum aut, accusantium veniam.</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-----------------------
+        FOOTER SECTION
+  ------------------------->
+
+  <footer class="footer" tabindex="35">
+    <div class="getInTouch">
+      <h3>Start a project?</h3>
+      <p>Interested in working together? We should queue up a time to chat.</p><a class="getInTouchBtn button"
+        target="_blank" href="https://www.linkedin.com/in/anshit-kumar-a1b6a1252//" tabindex="36">Get in touch</a>
+    </div>
+    <div class="footerParent">
+
+      <div class="profInfo">
+        <div class="imgDiv">
+          <img src="File\IMG_20181225_180620 copy - Copy.jpg" alt="Profile Image">
+        </div>
+
+        <p>Anshit Kumar Srivastava<br>Mail me at <a href="https://www.gmail.com" tabindex="37">ansh2002sri@gmail.com</a>
+        </p>
+      </div>
+      <div class="reachMeOut">
+        <h3>Reach me out on</h3>
+        <ul class="social-menu">
+          <li><a href="https://www.linkedin.com/in/anshit-kumar-a1b6a1252/" target="_blank" class="linkedin" tabindex="38" aria-label="linkedin"><i
+                class="fab fa-linkedin-in"></i></a></li>
+         
+        </ul>
+      </div>
+    </div>
+    <p class="developerInfo">Copyright © 2023 
+      <a href="https://www.linkedin.com/in/anshit-kumar-a1b6a1252/" tabindex="50">Anshit Kumar Srivastava</a> | All rights reserved
+    </p>
+  </footer>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+  <!-- External scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init()</script>
+  <script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"38a02672c4947844f226592073b89f740","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+</body>
+
+</html>
